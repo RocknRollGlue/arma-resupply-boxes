@@ -4,6 +4,9 @@ A quick attempt to bring some resupply boxes to mission makers and others enjoyi
 
 I try to keep it simple and readable, if someone is interested in learning about modding in Arma 3.
 
+
+The ``TextureHelper.xcf`` is a GIMP project file, for sign reference
+
 ## Requirements
 The following mods are required:
 
@@ -14,6 +17,8 @@ The following mods are required:
 ## Thanks
 
 Thanks to FourJays for contribution of original artwork and mentoring
+
+Text of textures has the font of [Saira Stencil One](https://fonts.google.com/specimen/Saira+Stencil+One/tester?preview.text=ANTI%20TANK&preview.text_type=custom&query=sten)
 
 ## License
 
