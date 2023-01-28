@@ -1,5 +1,5 @@
 class CfgPatches {
-	class Rocks_Stupid_box {
+	class rocks_Stupid_box {
 		name = "Rocks_Stupid_box";
 		author = "Rockn Roll Glue";
 		url = "https://github.com/RocknRollGlue";
@@ -23,7 +23,7 @@ class CfgFactionClasses {
 	#include "cfgFactionClasses.hpp"
 };
 class CfgEditorCategories{
-	class Rocks_Stupid_boxes{
+	class Rocks_Stupid_boxes_editor_category{
 		displayName = "Rocks Stupid Supplies";
 	};
 };
@@ -31,12 +31,11 @@ class CfgVehicleClasses {
 	#include "cfgVehicleClasses.hpp"
 };
 
-
-class CfgVehicles {
-	#include "supply_boxes.hpp"
+class Cfg3DEN {
+	#include "cfgEden.hpp"
 };
 
 
-class Cfg3DEN {
-	#include "cfgEden.hpp"
+class CfgVehicles {
+	#include "cfgVehicles.hpp"
 };
