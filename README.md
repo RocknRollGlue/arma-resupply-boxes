@@ -5,7 +5,9 @@ A quick attempt to bring some resupply boxes to mission makers and others enjoyi
 I try to keep it simple and readable, if someone is interested in learning about modding in Arma 3.
 
 
-The ``TextureHelper.xcf`` is a GIMP project file, for sign reference
+The ``TextureHelper.xcf`` is a GIMP project file, for sign reference.
+
+Make sure to either remove before build, or add ``*.xcf`` to the ``exclude.lst``
 
 ## Requirements
 The following mods are required:
