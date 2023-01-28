@@ -85,7 +85,7 @@ class RSB_Box_Large_Base: RSB_Box_Base {
 };
 
 // Long Crate
-class RSB_Box_Long_Base: Box_NATO_WpsLaunch_F {
+class RSB_Box_Long_Base: RSB_Box_Base {
 	displayName = "Base Long Box";
 	model = "\A3\weapons_F\AmmoBoxes\WpnsBox_long_F";
 	hiddenSelections[] = {"Camo_Signs", "Camo"};

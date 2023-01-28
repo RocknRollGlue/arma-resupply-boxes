@@ -4,6 +4,8 @@ A quick attempt to bring some resupply boxes to mission makers and others enjoyi
 
 I try to keep it simple and readable, if someone is interested in learning about modding in Arma 3.
 
+Steam workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2924906605
+
 
 The ``TextureHelper.xcf`` is a GIMP project file, for sign reference.
 

@@ -4,8 +4,7 @@ class CfgPatches {
 		author = "Rockn Roll Glue";
 		url = "https://github.com/RocknRollGlue";
 		units[] = {
-			"RSB_Box_Base",
-			"RSB_556_PMAG_TAN"
+			#include "unitClasses.hpp"
 		};
 		requiredAddons[] = {
 			3DEN,
