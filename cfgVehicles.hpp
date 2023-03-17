@@ -27,6 +27,8 @@ class Box_NATO_WpsLaunch_F;
 class RSB_Box_Base: NATO_Box_Base {
 	scope = 0;
 	displayName = "Base Box";
+	ace_cargo_size = 1;
+	ace_cargo_blockUnloadCarry = 1; 
 	model = "\A3\weapons_F\AmmoBoxes\AmmoBox_F";
 	faction = "Rocks_Stupid_boxes_faction";
 	editorCategory = "Rocks_Stupid_boxes_editor_category";
@@ -65,6 +67,7 @@ class RSB_Box_Base: NATO_Box_Base {
 // Medium Crate
 class RSB_Box_Medium_Base: RSB_Box_Base {
 	displayName = "Base Medium Box";
+	ace_cargo_size = 2;
 	model = "\A3\weapons_F\AmmoBoxes\WpnsBox_F";
 	hiddenSelections[] = {"Camo_Signs", "Camo"};
 	hiddenSelectionsTextures[] = {
@@ -76,6 +79,7 @@ class RSB_Box_Medium_Base: RSB_Box_Base {
 // Large Crate
 class RSB_Box_Large_Base: RSB_Box_Base {
 	displayName = "Base Large Box";
+	ace_cargo_size = 2;
 	model = "\A3\weapons_F\AmmoBoxes\WpnsBox_large_F";
 	hiddenSelections[] = {"Camo_Signs", "Camo"};
 	hiddenSelectionsTextures[] = {
@@ -87,6 +91,7 @@ class RSB_Box_Large_Base: RSB_Box_Base {
 // Long Crate
 class RSB_Box_Long_Base: RSB_Box_Base {
 	displayName = "Base Long Box";
+	ace_cargo_size = 2;
 	model = "\A3\weapons_F\AmmoBoxes\WpnsBox_long_F";
 	hiddenSelections[] = {"Camo_Signs", "Camo"};
 	hiddenSelectionsTextures[] = {
