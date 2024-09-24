@@ -1,6 +1,6 @@
 class CfgPatches {
-	class rocks_Stupid_box {
-		name = "Rocks_Stupid_box";
+	class rocks_supply_boxes {
+		name = "rocks_supply_boxes";
 		author = "Rockn Roll Glue";
 		url = "https://github.com/RocknRollGlue";
 		units[] = {
@@ -22,7 +22,7 @@ class CfgFactionClasses {
 	#include "cfgFactionClasses.hpp"
 };
 class CfgEditorCategories{
-	class Rocks_Stupid_boxes_editor_category{
+	class rocks_supply_boxes_editor_category{
 		displayName = "Rocks Stupid Supplies";
 	};
 };

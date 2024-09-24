@@ -30,12 +30,12 @@ class RSB_Box_Base: NATO_Box_Base {
 	ace_cargo_size = 1;
 	ace_cargo_blockUnloadCarry = 1; 
 	model = "\A3\weapons_F\AmmoBoxes\AmmoBox_F";
-	faction = "Rocks_Stupid_boxes_faction";
-	editorCategory = "Rocks_Stupid_boxes_editor_category";
+	faction = "rocks_supply_boxes_faction";
+	editorCategory = "rocks_supply_boxes_editor_category";
 	vehicleClass = "Rocks_Stupid_box_classes";
 	hiddenSelections[] = {"Camo_Signs", "Camo"};
 	hiddenSelectionsTextures[] = {
-		"\rocks_Stupid_box\data\NATO_signs_1.paa",
+		"\rocks_supply_boxes\data\NATO_signs_1.paa",
 		"A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
 	};
 	class AnimationSources{
@@ -71,7 +71,7 @@ class RSB_Box_Medium_Base: RSB_Box_Base {
 	model = "\A3\weapons_F\AmmoBoxes\WpnsBox_F";
 	hiddenSelections[] = {"Camo_Signs", "Camo"};
 	hiddenSelectionsTextures[] = {
-		"\rocks_Stupid_box\data\NATO_signs_1.paa",
+		"\rocks_supply_boxes\data\NATO_signs_1.paa",
 		"A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
 	};
 };
@@ -83,7 +83,7 @@ class RSB_Box_Large_Base: RSB_Box_Base {
 	model = "\A3\weapons_F\AmmoBoxes\WpnsBox_large_F";
 	hiddenSelections[] = {"Camo_Signs", "Camo"};
 	hiddenSelectionsTextures[] = {
-		"\rocks_Stupid_box\data\NATO_signs_1.paa",
+		"\rocks_supply_boxes\data\NATO_signs_1.paa",
 		"A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
 	};
 };
@@ -95,7 +95,7 @@ class RSB_Box_Long_Base: RSB_Box_Base {
 	model = "\A3\weapons_F\AmmoBoxes\WpnsBox_long_F";
 	hiddenSelections[] = {"Camo_Signs", "Camo"};
 	hiddenSelectionsTextures[] = {
-		"\rocks_Stupid_box\data\NATO_signs_1.paa",
+		"\rocks_supply_boxes\data\NATO_signs_1.paa",
 		"A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
 	};
 };
@@ -320,11 +320,11 @@ class RSB_556_Boxed: RSB_Box_AmmoOrd_Source{
 	class TransportMagazines{
 		class rhsusf_200Rnd_556x45_soft_pouch{
 			magazine="rhsusf_200Rnd_556x45_soft_pouch";
-			count=15;
+			count=10;
 		};
 		class rhsusf_200Rnd_556x45_mixed_soft_pouch{
 			magazine="rhsusf_200Rnd_556x45_mixed_soft_pouch";
-			count=10;
+			count=5;
 		};
 	};
 };
@@ -335,7 +335,7 @@ class RSB_Medical_Supplies: RSB_Box_Support_Source {
 	scope = 2;
 	displayName = "Medical Supplies";
 		hiddenSelectionsTextures[] = {
-		"\rocks_Stupid_box\data\NATO_signs_2.paa",
+		"\rocks_supply_boxes\data\NATO_signs_2.paa",
 		"A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
 	};
 	class TransportItems{
@@ -366,7 +366,7 @@ class RSB_FirstAid_Supplies: RSB_Box_Ammo_Source {
 	scope = 2;
 	displayName = "First Aid Supplies";
 		hiddenSelectionsTextures[] = {
-		"\rocks_Stupid_box\data\NATO_signs_2.paa",
+		"\rocks_supply_boxes\data\NATO_signs_2.paa",
 		"A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
 	};
 	class TransportItems{

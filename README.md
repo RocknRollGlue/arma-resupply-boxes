@@ -20,7 +20,7 @@ The following mods are required:
 
 ## Thanks
 
-Thanks to FourJays for contribution of original artwork and mentoring
+Thanks to FourJays for mentoring
 
 Text of textures has the font of [Saira Stencil One](https://fonts.google.com/specimen/Saira+Stencil+One/tester?preview.text=ANTI%20TANK&preview.text_type=custom&query=sten)
 
